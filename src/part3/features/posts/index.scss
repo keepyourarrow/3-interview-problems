@@ -1,0 +1,34 @@
+.part3-container {
+    overflow: auto;
+}
+
+.posts-container {
+    height: 300px;
+    width: 100%;
+    overflow: auto;
+}
+
+.post-body__short {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 200px;
+}
+
+.btn-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-action {
+    border: none;
+    background: none;
+    font-size: 19.5px;
+    transition: filter var(--defaultTransitionSpeed) var(--defaultTransitionType);
+}
+
+.btn-action:hover {
+    filter: brightness(75%);
+}
