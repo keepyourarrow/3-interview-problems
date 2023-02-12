@@ -17,7 +17,7 @@ const EditForm = ({ post, onChangeField }: Props) => {
     const formItems = [
         { label: "User ID", key: "userId", type: "number" },
         { label: "Title", key: "title", props: { rows: 2, as: "textarea" as ElementType<any> } },
-        { label: "Body", key: "body", props: { rows: 3, as: "textarea" as ElementType<any> } },
+        { label: "Body", key: "body", props: { rows: 5, as: "textarea" as ElementType<any> } },
     ];
 
     return (

@@ -13,6 +13,8 @@
     opacity: 0;
     transform: translateY(-100%);
     z-index: -1;
+    list-style-type: none;
+    padding: 0;
 }
 .dropdown_open {
     opacity: 1;
